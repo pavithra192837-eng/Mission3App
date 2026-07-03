@@ -1,50 +1,156 @@
-# Welcome to your Expo app 👋
+# 📱 Mission3App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern React Native mobile application built with clean UI, reusable components, and smooth navigation. This project demonstrates my React Native development skills, including responsive layouts, component-based architecture, and mobile app best practices.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 🎨 Beautiful and responsive UI
+- 📱 Cross-platform (Android & iOS)
+- 🧭 React Navigation
+- ⚡ Fast and optimized performance
+- 🧩 Reusable components
+- 📂 Clean folder structure
+- 🌙 Modern mobile design
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📸 Screenshots
 
-In the output, you'll find options to open the app in a
+> Add screenshots inside a `screenshots` folder.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Home Screen | Details Screen |
+|-------------|----------------|
+| ![](screenshots/home.png) | ![](screenshots/details.png) |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠 Tech Stack
 
-When you're ready, run:
+- React Native
+- JavaScript
+- React Navigation
+- React Hooks
+- StyleSheet API
+- VS Code
+- Git & GitHub
 
-```bash
-npm run reset-project
+---
+
+## 📁 Project Structure
+
+```
+Mission3App
+│
+├── assets/
+├── components/
+├── screens/
+├── navigation/
+├── constants/
+├── App.js
+├── package.json
+└── README.md
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🚀 Getting Started
 
-To learn more about developing your project with Expo, look at the following resources:
+### 1. Clone the repository
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone https://github.com/yourusername/Mission3App.git
+```
 
-## Join the community
+### 2. Navigate into the project
 
-Join our community of developers creating universal apps.
+```bash
+cd Mission3App
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start Metro
+
+```bash
+npx react-native start
+```
+
+### 5. Run Android
+
+```bash
+npx react-native run-android
+```
+
+### 6. Run iOS (Mac only)
+
+```bash
+npx react-native run-ios
+```
+
+---
+
+## 📦 Dependencies
+
+- React Native
+- React
+- React Navigation
+- React Native Screens
+- React Native Safe Area Context
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I learned:
+
+- Building responsive mobile UIs
+- Component-based architecture
+- Navigation between screens
+- State management using React Hooks
+- Git & GitHub workflow
+- Clean code organization
+
+---
+
+## 🔮 Future Improvements
+
+- Authentication
+- Dark Mode
+- API Integration
+- Firebase Backend
+- Push Notifications
+- Offline Storage
+- Better Animations
+
+---
+
+## 👩‍💻 Developer
+
+**Pavithra Rajaraman**
+
+B.E. Electronics and Communication Engineering (ECE)
+
+Passionate about Full Stack Development, React Native, and Mobile App Development.
+
+GitHub:
+https://github.com/pavithra192837-eng
+
+---
+
+## ⭐ Support
+
+If you like this project, don't forget to ⭐ star the repository!
+
+It motivates me to build more amazing projects.
+
+---
+
+## 📄 License
+
+This project is created for learning and educational purposes.
