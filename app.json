@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "Mission3App",
-    "slug": "Mission3App",
+    "name": "Learnmate",
+    "slug": "Learnmate",
     "version": "1.0.0",
     "orientation": "default",
     "icon": "./assets/images/icon.png",
-    "scheme": "mission3app",
+    
+    "scheme": "learnmate",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -19,7 +20,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.pavithrarajaraman.learnmate"
     },
     "web": {
       "output": "static",
@@ -31,7 +33,7 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "imageWidth": 1,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
           "dark": {
@@ -43,6 +45,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "066de368-1a4c-4a9b-9516-d1976bfd75e1"
+      }
     }
   }
 }

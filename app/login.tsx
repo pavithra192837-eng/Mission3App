@@ -331,11 +331,13 @@ export default function LoginScreen() {
   );
 }
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5c6ca9',
+    backgroundColor: '#F8FAFC',
   },
+
   contentContainer: {
     paddingHorizontal: 25,
     paddingTop: 40,
@@ -343,95 +345,130 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     justifyContent: 'center',
   },
+
   title: {
-    color: '#ffffff',
+    color: '#1E293B',
     fontSize: 34,
     fontWeight: 'bold',
     textAlign: 'center',
   },
+
   subtitle: {
-    color: '#94a3b8',
+    color: '#64748B',
     textAlign: 'center',
     marginTop: 8,
     marginBottom: 28,
     fontSize: 16,
   },
+
   card: {
-    backgroundColor: '#1e293b',
+    backgroundColor: '#FFFFFF',
     borderRadius: 20,
     padding: 25,
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+    elevation: 3,
+    shadowColor: '#CBD5E1',
+    shadowOpacity: 0.15,
+    shadowRadius: 8,
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
   },
+
   label: {
-    color: '#ffffff',
+    color: '#1E293B',
     marginBottom: 8,
     fontSize: 15,
+    fontWeight: '600',
   },
+
   input: {
-    backgroundColor: '#334155',
-    color: '#ffffff',
+    backgroundColor: '#FFFFFF',
+    color: '#1E293B',
     borderRadius: 12,
     padding: 14,
     marginBottom: 16,
+    borderWidth: 1,
+    borderColor: '#CBD5E1',
   },
+
   showPassword: {
-    color: '#60a5fa',
+    color: '#7C83FD',
     fontWeight: '600',
   },
+
   forgotPassword: {
-    color: '#fbbf24',
+    color: '#F59E0B',
     fontWeight: '600',
     marginLeft: 16,
   },
+
   passwordActionsRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 20,
   },
+
   loginButton: {
-    backgroundColor: '#4f46e5',
+    backgroundColor: '#7C83FD',
     padding: 15,
     borderRadius: 12,
     marginBottom: 12,
     alignItems: 'center',
   },
+
   loginText: {
-    color: '#ffffff',
+    color: '#FFFFFF',
     textAlign: 'center',
     fontSize: 17,
     fontWeight: 'bold',
   },
+
   switchModeButton: {
     paddingVertical: 10,
   },
+
   switchModeText: {
-    color: '#a5b4fc',
-    textAlign: 'center',
-  },
-  guestButton: {
-    borderWidth: 1,
-    borderColor: '#4f46e5',
-    padding: 12,
-    borderRadius: 12,
-  },
-  guestText: {
-    color: '#4f46e5',
+    color: '#7C83FD',
     textAlign: 'center',
     fontWeight: '600',
   },
+
+  guestButton: {
+    borderWidth: 1,
+    borderColor: '#7C83FD',
+    padding: 12,
+    borderRadius: 12,
+    backgroundColor: '#EEF2FF',
+  },
+
+  guestText: {
+    color: '#7C83FD',
+    textAlign: 'center',
+    fontWeight: '600',
+  },
+
   innerContainer: {
     flex: 1,
     justifyContent: 'center',
   },
+
   errorText: {
-    color: '#ff6b6b',
+    color: '#EF4444',
     marginBottom: 12,
+    fontWeight: '500',
   },
+
   footer: {
-    color: '#c5cbd3',
+    color: '#64748B',
     textAlign: 'center',
     marginTop: 35,
+    fontSize: 14,
   },
+
   disabledButton: {
     opacity: 0.6,
   },

@@ -7,15 +7,21 @@ export default function TabsLayout() {
     <Tabs
       screenOptions={({ route }) => ({
         headerShown: false,
-        tabBarActiveTintColor: '#4f46e5',
-        tabBarInactiveTintColor: '#64748b',
+
+        // Active icon/text color
+        tabBarActiveTintColor: '#7C83FD',
+
+        // Inactive icon/text color
+        tabBarInactiveTintColor: '#94A3B8',
+
         tabBarStyle: {
-          backgroundColor: '#071135',
-          borderTopColor: '#1e293b',
+          backgroundColor: '#FFFFFF',
+          borderTopColor: '#E2E8F0',
           height: 64,
           paddingBottom: 8,
           paddingTop: 6,
         },
+
         tabBarIcon: ({ color, size }) => {
           let iconName: keyof typeof Ionicons.glyphMap = 'home-outline';
 

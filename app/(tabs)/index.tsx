@@ -11,7 +11,7 @@ import {
   View,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { calculateStars, updateStreakFromCompletion } from './task-stats';
+import { calculateStars, updateStreakFromCompletion } from '../services/task-stats';
 
 type Task = {
   id: string;
@@ -247,237 +247,282 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5c6ca9',
+    backgroundColor: '#F8FAFC',
   },
+
   scrollView: {
     flex: 1,
   },
+
   contentContainer: {
     paddingHorizontal: 14,
     paddingTop: 8,
     paddingBottom: 36,
   },
+
   headerCard: {
-    backgroundColor: '#111c3f',
+    backgroundColor: '#FFFFFF',
     borderRadius: 20,
     padding: 20,
     marginBottom: 16,
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+    elevation: 3,
   },
+
   greeting: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 24,
     fontWeight: '700',
   },
+
   dateText: {
-    color: '#8fb6ff',
+    color: '#7C83FD',
     marginTop: 6,
     fontSize: 15,
   },
+
   subtitle: {
-    color: '#9aa4bf',
+    color: '#64748B',
     marginTop: 8,
     fontSize: 13,
   },
+
   statsRow: {
     flexDirection: 'row',
     gap: 12,
     marginBottom: 16,
   },
+
   statCard: {
     flex: 1,
-    backgroundColor: '#14224b',
+    backgroundColor: '#FFFFFF',
     borderRadius: 16,
     padding: 14,
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+    elevation: 2,
   },
+
   statLabel: {
-    color: '#8fb6ff',
+    color: '#64748B',
     fontSize: 13,
   },
+
   statValue: {
-    color: '#fff',
+    color: '#7C83FD',
     fontSize: 20,
     fontWeight: '700',
     marginTop: 4,
   },
+
   cardTitle: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 17,
     fontWeight: '700',
     marginBottom: 6,
   },
+
   cardText: {
-    color: '#afbdd8',
+    color: '#64748B',
     marginBottom: 10,
   },
+
   barTrack: {
     height: 8,
     borderRadius: 999,
-    backgroundColor: '#22335b',
+    backgroundColor: '#E2E8F0',
     overflow: 'hidden',
   },
+
   barFill: {
     height: 8,
-    backgroundColor: '#4f46e5',
+    backgroundColor: '#34D399',
     borderRadius: 999,
   },
+
   quoteCard: {
-    backgroundColor: '#111c3f',
+    backgroundColor: '#FFFFFF',
     borderRadius: 20,
     padding: 18,
     marginBottom: 16,
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+    elevation: 2,
   },
+
   timerCard: {
-    backgroundColor: '#111c3f',
+    backgroundColor: '#FFFFFF',
     borderRadius: 20,
     padding: 18,
     marginBottom: 16,
     alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+    elevation: 2,
   },
+
   timerValue: {
-    color: '#fff',
+    color: '#7C83FD',
     fontSize: 32,
     fontWeight: '700',
     marginVertical: 12,
   },
-  startButton: {
-    backgroundColor: '#4f46e5',
-    borderRadius: 999,
-    paddingVertical: 12,
-    paddingHorizontal: 28,
-  },
-  startButtonText: {
-    color: '#fff',
-    fontWeight: '700',
-  },
+
   timelineCard: {
     marginBottom: 16,
   },
+
   timelineRow: {
     flexDirection: 'row',
     alignItems: 'center',
     marginBottom: 10,
   },
+
   timelineDot: {
-    color: '#60a5fa',
+    color: '#34D399',
     fontWeight: '700',
     marginRight: 10,
   },
+
   timelineText: {
-    color: '#f8faff',
+    color: '#1E293B',
     flex: 1,
   },
+
   timelineCompleted: {
-    color: '#94a3b8',
+    color: '#94A3B8',
     textDecorationLine: 'line-through',
   },
+
   emptyText: {
-    color: '#94a3b8',
+    color: '#94A3B8',
     marginTop: 8,
   },
+
   quoteText: {
-    color: '#f8faff',
+    color: '#475569',
     fontSize: 15,
     lineHeight: 22,
   },
+
   headerRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'flex-start',
   },
+
   headerText: {
     flex: 1,
     paddingRight: 10,
   },
+
   logoutButton: {
-    backgroundColor: '#f97316',
+    backgroundColor: '#F87171',
     paddingVertical: 10,
     paddingHorizontal: 14,
     borderRadius: 12,
-    alignSelf: 'flex-start',
   },
+
   logoutButtonText: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontWeight: '700',
   },
+
   sectionCard: {
-    backgroundColor: '#111c3f',
+    backgroundColor: '#FFFFFF',
     borderRadius: 20,
     padding: 18,
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+    elevation: 2,
   },
+
   timerOptionsRow: {
     flexDirection: 'row',
     gap: 12,
     marginVertical: 12,
   },
+
   timerActionsRow: {
     flexDirection: 'row',
-    alignItems: 'center',
     justifyContent: 'space-between',
     gap: 12,
     marginTop: 8,
     width: '100%',
   },
+
   startButton: {
-    backgroundColor: '#4f46e5',
+    backgroundColor: '#7C83FD',
     borderRadius: 999,
     paddingVertical: 12,
     paddingHorizontal: 28,
     flex: 1,
   },
+
   resetButton: {
-    backgroundColor: '#1f2937',
+    backgroundColor: '#FFFFFF',
     borderRadius: 999,
     borderWidth: 1,
-    borderColor: '#4f46e5',
+    borderColor: '#7C83FD',
     paddingVertical: 12,
     paddingHorizontal: 28,
     flex: 1,
   },
+
   startButtonText: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontWeight: '700',
     textAlign: 'center',
   },
+
   resetButtonText: {
-    color: '#60a5fa',
+    color: '#7C83FD',
     fontWeight: '700',
     textAlign: 'center',
   },
+
   timerOption: {
-    backgroundColor: '#22335b',
+    backgroundColor: '#EEF2FF',
     paddingVertical: 8,
     paddingHorizontal: 14,
     borderRadius: 12,
   },
+
   timerOptionText: {
-    color: '#8fb6ff',
+    color: '#7C83FD',
     fontWeight: '700',
   },
+
   courseLeft: {
     flexDirection: 'row',
     alignItems: 'center',
     flex: 1,
   },
+
   courseRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingVertical: 10,
-    borderBottomColor: '#22335b',
     borderBottomWidth: 1,
+    borderBottomColor: '#E2E8F0',
   },
+
   courseTitle: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 15,
     fontWeight: '600',
   },
+
   coursePercent: {
-    color: '#8fb6ff',
+    color: '#64748B',
     fontSize: 13,
     marginTop: 2,
   },
+
   linkText: {
-    color: '#60a5fa',
+    color: '#7C83FD',
     fontWeight: '700',
   },
 });

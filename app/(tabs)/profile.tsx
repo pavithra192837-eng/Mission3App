@@ -153,104 +153,141 @@ export default function ProfileScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5c6ca9',
+    backgroundColor: '#F8FAFC',
   },
+
   contentContainer: {
     paddingHorizontal: 14,
     paddingTop: 40,
     paddingBottom: 36,
   },
+
   title: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 24,
     fontWeight: '700',
   },
+
   subtitle: {
-    color: '#dadee9',
+    color: '#64748B',
     marginTop: 6,
     marginBottom: 16,
   },
+
   card: {
-    backgroundColor: '#111c3f',
+    backgroundColor: '#FFFFFF',
     borderRadius: 16,
     padding: 16,
     marginBottom: 14,
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+
+    // Shadow
+    shadowColor: '#CBD5E1',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 6,
+    elevation: 3,
   },
+
   cardTitle: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 17,
     fontWeight: '700',
     marginBottom: 8,
   },
+
   bigValue: {
-    color: '#fff',
+    color: '#7C83FD',
     fontSize: 30,
     fontWeight: '800',
   },
+
   badge: {
-    color: '#60a5fa',
+    color: '#34D399',
     marginTop: 6,
     fontWeight: '700',
   },
+
   interestRow: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     gap: 8,
   },
+
   chip: {
     paddingHorizontal: 12,
     paddingVertical: 8,
     borderRadius: 999,
-    backgroundColor: '#1e293b',
+    backgroundColor: '#EEF2FF',
     marginRight: 8,
     marginBottom: 8,
+    borderWidth: 1,
+    borderColor: '#C7D2FE',
   },
+
   chipSelected: {
-    backgroundColor: '#4f46e5',
+    backgroundColor: '#7C83FD',
   },
+
   chipText: {
-    color: '#cbd5e1',
+    color: '#475569',
+    fontWeight: '500',
   },
+
   chipTextSelected: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontWeight: '700',
   },
+
   recommendRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingVertical: 8,
   },
+
   recommendTitle: {
-    color: '#fff',
+    color: '#1E293B',
     fontWeight: '600',
   },
+
   recommendTeacher: {
-    color: '#8fb6ff',
+    color: '#64748B',
     marginTop: 2,
   },
+
   linkText: {
-    color: '#60a5fa',
+    color: '#7C83FD',
     fontWeight: '700',
   },
+
   emptyText: {
-    color: '#94a3b8',
+    color: '#94A3B8',
   },
+
   timelineRow: {
     flexDirection: 'row',
     alignItems: 'center',
     paddingVertical: 6,
   },
+
   timelineDot: {
-    color: '#60a5fa',
+    color: '#34D399',
     marginRight: 8,
     fontWeight: '700',
   },
+
   timelineText: {
-    color: '#fff',
+    color: '#1E293B',
+    fontSize: 15,
   },
+
   timelineCompleted: {
-    color: '#94a3b8',
+    color: '#94A3B8',
     textDecorationLine: 'line-through',
   },
 });

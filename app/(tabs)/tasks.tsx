@@ -180,127 +180,155 @@ export default function TasksScreen() {
   );
 }
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5c6ca9',
+    backgroundColor: '#F8FAFC',
   },
+
   contentContainer: {
     paddingHorizontal: 14,
     paddingTop: 40,
     paddingBottom: 36,
   },
+
   title: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 24,
     fontWeight: '700',
   },
+
   subtitle: {
-    color: '#9aa4bf',
+    color: '#64748B',
     marginTop: 6,
     marginBottom: 16,
   },
+
   progressCard: {
-    backgroundColor: '#111c3f',
+    backgroundColor: '#FFFFFF',
     borderRadius: 16,
     padding: 14,
     marginBottom: 16,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+    elevation: 3,
   },
+
   progressText: {
-    color: '#fff',
+    color: '#1E293B',
     fontWeight: '600',
   },
+
   progressPercent: {
-    color: '#60a5fa',
+    color: '#34D399',
     fontWeight: '700',
   },
+
   inputRow: {
     flexDirection: 'row',
     gap: 10,
     marginBottom: 16,
   },
+
   input: {
     flex: 1,
-    backgroundColor: '#111c3f',
-    color: '#fff',
+    backgroundColor: '#FFFFFF',
+    color: '#1E293B',
     borderRadius: 10,
     paddingHorizontal: 12,
     paddingVertical: 10,
+    borderWidth: 1,
+    borderColor: '#CBD5E1',
   },
+
   addButton: {
-    backgroundColor: '#4f46e5',
+    backgroundColor: '#7C83FD',
     paddingHorizontal: 14,
     justifyContent: 'center',
     borderRadius: 10,
   },
+
   addButtonText: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontWeight: '700',
   },
+
   taskCard: {
-    backgroundColor: '#111c3f',
+    backgroundColor: '#FFFFFF',
     borderRadius: 14,
     padding: 14,
     marginBottom: 10,
     flexDirection: 'row',
     alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+    elevation: 2,
   },
+
   checkbox: {
     width: 22,
     height: 22,
     borderRadius: 11,
     borderWidth: 2,
-    borderColor: '#60a5fa',
+    borderColor: '#7C83FD',
     marginRight: 10,
     alignItems: 'center',
     justifyContent: 'center',
   },
+
   checkmark: {
-    color: '#60a5fa',
+    color: '#7C83FD',
     fontWeight: '700',
   },
+
   taskText: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 15,
     flex: 1,
   },
+
   taskCompleted: {
     textDecorationLine: 'line-through',
-    color: '#94a3b8',
+    color: '#94A3B8',
   },
+
   deleteLabel: {
-    color: '#f97316',
+    color: '#F87171',
     fontWeight: '700',
     marginLeft: 12,
   },
+
   congratsOverlay: {
     position: 'absolute',
     left: 20,
     right: 20,
     top: 120,
-    backgroundColor: 'rgba(79, 70, 229, 0.95)',
+    backgroundColor: '#7C83FD',
     borderRadius: 20,
     padding: 18,
     alignItems: 'center',
     zIndex: 10,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 8 },
-    shadowOpacity: 0.35,
-    shadowRadius: 14,
-    elevation: 12,
+    shadowColor: '#7C83FD',
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.25,
+    shadowRadius: 10,
+    elevation: 8,
   },
+
   congratsText: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontSize: 16,
     fontWeight: '700',
     marginBottom: 10,
     textAlign: 'center',
   },
+
   lightningText: {
-    color: '#ffe066',
+    color: '#FBBF24',
     fontSize: 26,
   },
 });

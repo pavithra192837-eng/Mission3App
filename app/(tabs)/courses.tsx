@@ -165,86 +165,107 @@ export default function CoursesScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5c6ca9',
+    backgroundColor: '#F8FAFC', // Light pastel background
   },
+
   contentContainer: {
     paddingHorizontal: 14,
     paddingTop: 40,
     paddingBottom: 36,
   },
+
   title: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 24,
     fontWeight: '700',
   },
+
   subtitle: {
-    color: '#9aa4bf',
+    color: '#64748B',
     marginTop: 6,
     marginBottom: 16,
   },
+
   card: {
-    backgroundColor: '#111c3f',
+    backgroundColor: '#FFFFFF',
     borderRadius: 16,
     padding: 16,
     marginBottom: 14,
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
   },
+
   inputCard: {
-    backgroundColor: '#111c3f',
+    backgroundColor: '#FFFFFF',
     borderRadius: 16,
     padding: 16,
     marginBottom: 14,
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
   },
+
+  input: {
+    backgroundColor: '#F1F5F9',
+    color: '#1E293B',
+    borderRadius: 12,
+    padding: 12,
+    marginBottom: 12,
+    borderWidth: 1,
+    borderColor: '#CBD5E1',
+  },
+
   addButton: {
-    backgroundColor: '#4f46e5',
+    backgroundColor: '#7C83FD',
     paddingVertical: 12,
     borderRadius: 12,
     alignItems: 'center',
     marginTop: 6,
   },
+
   addButtonText: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontWeight: '700',
   },
+
   deleteButton: {
     marginTop: 12,
     paddingVertical: 10,
     borderRadius: 10,
     alignItems: 'center',
-    backgroundColor: '#d946ef',
+    backgroundColor: '#F9A8D4',
   },
+
   deleteButtonText: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontWeight: '700',
   },
-  input: {
-    backgroundColor: '#0f172a',
-    color: '#fff',
-    borderRadius: 12,
-    padding: 12,
-    marginBottom: 12,
-  },
+
   cardTitle: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 17,
     fontWeight: '700',
   },
+
   cardTeacher: {
-    color: '#8fb6ff',
+    color: '#6366F1',
     marginTop: 4,
   },
+
   cardProgress: {
-    color: '#cbd5e1',
+    color: '#64748B',
     marginTop: 6,
     marginBottom: 12,
   },
+
   button: {
-    backgroundColor: '#4f46e5',
+    backgroundColor: '#7C83FD',
     paddingVertical: 10,
     borderRadius: 10,
     alignItems: 'center',
   },
+
   buttonText: {
-    color: '#fff',
+    color: '#FFFFFF',
     fontWeight: '700',
   },
 });

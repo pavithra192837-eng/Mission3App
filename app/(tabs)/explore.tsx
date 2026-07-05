@@ -72,46 +72,69 @@ export default function ExploreScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5c6ca9',
+    backgroundColor: '#F8FAFC',
   },
+
   contentContainer: {
     padding: 40,
     paddingBottom: 40,
   },
+
   title: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 24,
     fontWeight: '700',
   },
+
   subtitle: {
-    color: '#b9bfce',
+    color: '#64748B',
     marginTop: 6,
     marginBottom: 16,
   },
+
   card: {
-    backgroundColor: '#111c3f',
+    backgroundColor: '#FFFFFF',
     borderRadius: 16,
     padding: 16,
     marginBottom: 14,
+    borderWidth: 1,
+    borderColor: '#E2E8F0',
+
+    // Shadow
+    shadowColor: '#CBD5E1',
+    shadowOffset: {
+      width: 0,
+      height: 3,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 6,
+    elevation: 3,
   },
+
   cardTitle: {
-    color: '#fff',
+    color: '#1E293B',
     fontSize: 18,
     fontWeight: '700',
     marginBottom: 10,
   },
+
   stepRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 8,
+    marginBottom: 10,
   },
+
   stepNumber: {
-    color: '#60a5fa',
+    color: '#7C83FD',
     fontWeight: '700',
     marginRight: 10,
+    fontSize: 16,
   },
+
   stepText: {
-    color: '#e2e8f0',
+    color: '#475569',
     flex: 1,
+    fontSize: 15,
+    lineHeight: 22,
   },
 });
