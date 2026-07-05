@@ -142,6 +142,35 @@ GitHub:
 https://github.com/pavithra192837-eng
 
 ---
+## 📸 Screenshots
+
+### Splash Screen
+
+![Splash](screenshots/splash.png)
+
+### Login Screen
+
+![Login](screenshots/login.png)
+
+### Home Screen
+
+![Home](screenshots/home.png)
+
+### Courses Screen
+
+![Courses](screenshots/courses.png)
+
+### Tasks Screen
+
+![Tasks](screenshots/tasks.png)
+
+### Explore Screen
+
+![Explore](screenshots/explore.png)
+
+### Profile Screen
+
+![Profile](screenshots/profile.png)
 
 ## ⭐ Support
 
