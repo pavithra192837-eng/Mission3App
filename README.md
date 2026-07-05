@@ -146,11 +146,11 @@ https://github.com/pavithra192837-eng
 
 ### Splash Screen
 
-![Splash](screenshots/splash.png)
+![Splash](screenshots/splash.jpeg)
 
 ### Login Screen
 
-![Login](screenshots/login.png)
+![Login](screenshots/login.jpeg)
 
 ### Home Screen
 
@@ -158,19 +158,19 @@ https://github.com/pavithra192837-eng
 
 ### Courses Screen
 
-![Courses](screenshots/courses.png)
+![Courses](screenshots/courses.jpeg)
 
 ### Tasks Screen
 
-![Tasks](screenshots/tasks.png)
+![Tasks](screenshots/tasks.jpeg)
 
 ### Explore Screen
 
-![Explore](screenshots/explore.png)
+![Explore](screenshots/explore.jpeg)
 
 ### Profile Screen
 
-![Profile](screenshots/profile.png)
+![Profile](screenshots/profile.jpeg)
 
 ## ⭐ Support
 
