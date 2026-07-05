@@ -146,33 +146,33 @@ https://github.com/pavithra192837-eng
 
 ## 📸 Screenshots
 
-### 🚀 Splash Screen
-
-![Splash Screen](assets/images/splash.jpeg)
 
 ### 🔐 Login Screen
 
-![Login Screen](assets/images/login.jpeg)
+<img src="https://github.com/user-attachments/assets/6ab3db46-8cf6-4a09-b1ce-bdaeb7c595b1" width="300" alt="Login Screen"/>
 
 ### 🏠 Home Screen
 
-![Home Screen](assets/images/home.jpeg)
+<img width="300" alt="home" src="https://github.com/user-attachments/assets/b0852eec-9ccc-4deb-8580-b826be386e4b" />
 
 ### 📚 Courses Screen
+<img width="300" alt="courses" src="https://github.com/user-attachments/assets/87fface7-801e-4375-ab69-191164521e4b" />
 
-![Courses Screen](assets/images/courses.jpeg)
 
 ### ✅ Tasks Screen
 
-![Tasks Screen](assets/images/tasks.jpeg)
+<img width="300" alt="tasks" src="https://github.com/user-attachments/assets/a4be0f14-8680-46af-b648-b5eef91a5a0e" />
+
 
 ### 🔍 Explore Screen
 
-![Explore Screen](assets/images/explore.jpeg)
+<img width="300" alt="explore" src="https://github.com/user-attachments/assets/289c313a-a0ff-49ef-9dda-ea416e074300" />
+
 
 ### 👤 Profile Screen
 
-![Profile Screen](assets/images/profile.jpeg)
+<img width="300" alt="profile" src="https://github.com/user-attachments/assets/e3615f14-7df3-4023-9899-6c0b1ac3feb9" />
+
 
 ## ⭐ Support
 
