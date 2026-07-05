@@ -142,35 +142,37 @@ GitHub:
 https://github.com/pavithra192837-eng
 
 ---
+
+
 ## 📸 Screenshots
 
-### Splash Screen
+### 🚀 Splash Screen
 
-![Splash](screenshots/splash.jpeg)
+![Splash Screen](assets/images/splash.jpeg)
 
-### Login Screen
+### 🔐 Login Screen
 
-![Login](screenshots/login.jpeg)
+![Login Screen](assets/images/login.jpeg)
 
-### Home Screen
+### 🏠 Home Screen
 
-![Home](screenshots/home.png)
+![Home Screen](assets/images/home.jpeg)
 
-### Courses Screen
+### 📚 Courses Screen
 
-![Courses](screenshots/courses.jpeg)
+![Courses Screen](assets/images/courses.jpeg)
 
-### Tasks Screen
+### ✅ Tasks Screen
 
-![Tasks](screenshots/tasks.jpeg)
+![Tasks Screen](assets/images/tasks.jpeg)
 
-### Explore Screen
+### 🔍 Explore Screen
 
-![Explore](screenshots/explore.jpeg)
+![Explore Screen](assets/images/explore.jpeg)
 
-### Profile Screen
+### 👤 Profile Screen
 
-![Profile](screenshots/profile.jpeg)
+![Profile Screen](assets/images/profile.jpeg)
 
 ## ⭐ Support
 
